@@ -2,7 +2,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/tapt_db'
+    connection: 'postgres://localhost/tapt2_db'
   }
 
   // production: {

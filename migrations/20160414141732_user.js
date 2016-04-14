@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
     table.string('facebook_id');
     table.string('name');
     table.string('email');
-    table.password('password');
+    table.string('password');
     table.timestamp('created_at').defaultTo(knex.fn.now());
   });
 };
